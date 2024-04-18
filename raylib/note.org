@@ -1,0 +1,6 @@
+to compile raylib, simply:
+#+BEGIN_SRC bash
+  ar x libraylib.a
+  csc -c raylib.scm -o build/raylib.o
+  csc build/*.o -L -lGL -L -lm -L -lpthread -L -ldl -L -lrt -L -lX11 -dynamic -o build/raylib.so
+#+END_SRC

@@ -1,0 +1,2 @@
+* raylib bindings
+to compile raylib bindings into an =.so= file (for use with the REPL), move =libraylib.a= and all header files (=raylib.h=, =raymath.h=, =rlgl.h=) into this directory and run =./raylib/build.sh= from outer dir.

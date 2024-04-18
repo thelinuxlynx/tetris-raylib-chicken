@@ -1,0 +1,13 @@
+*.ss~
+*.ss#*
+.#*.ss
+*.scm~
+*.scm#*
+.#*.scm
+
+raylib/linux_amd64/
+raylib/linux_i386/
+raylib/macos/
+raylib/webassembly/
+raylib/win32_mingw-w64/
+raylib/win64_mingw-w64/
